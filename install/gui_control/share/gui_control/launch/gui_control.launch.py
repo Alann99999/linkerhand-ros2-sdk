@@ -1,0 +1,1 @@
+/home/alan/linker_hand_ros2_sdk/build/gui_control/launch/gui_control.launch.py

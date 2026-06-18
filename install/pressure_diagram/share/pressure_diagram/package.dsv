@@ -1,0 +1,9 @@
+source;share/pressure_diagram/hook/pythonpath.ps1
+source;share/pressure_diagram/hook/pythonpath.dsv
+source;share/pressure_diagram/hook/pythonpath.sh
+source;share/pressure_diagram/hook/ament_prefix_path.ps1
+source;share/pressure_diagram/hook/ament_prefix_path.dsv
+source;share/pressure_diagram/hook/ament_prefix_path.sh
+source;../../build/pressure_diagram/share/pressure_diagram/hook/pythonpath_develop.ps1
+source;../../build/pressure_diagram/share/pressure_diagram/hook/pythonpath_develop.dsv
+source;../../build/pressure_diagram/share/pressure_diagram/hook/pythonpath_develop.sh

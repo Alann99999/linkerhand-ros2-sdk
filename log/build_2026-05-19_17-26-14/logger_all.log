@@ -1,0 +1,461 @@
+[0.108s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e0942c99de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e0942c998d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e0942c998d0>>)
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.366s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alan/linker_hand_ros2_sdk'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/doc) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L10/gesture) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/L7/gesture) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/examples/setting_info) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkerhand-ros2-sdk/examples/setting_info' with type 'ros.ament_python' and name 'setting_info'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/graphic_display) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkerhand-ros2-sdk/graphic_display' with type 'ros.ament_python' and name 'graphic_display'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/gui_control) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkerhand-ros2-sdk/gui_control' with type 'ros.ament_python' and name 'gui_control'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/linker_hand_ros2_sdk) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkerhand-ros2-sdk/linker_hand_ros2_sdk' with type 'ros.ament_python' and name 'linker_hand_ros2_sdk'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/pressure_diagram) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linkerhand-ros2-sdk/pressure_diagram' with type 'ros.ament_python' and name 'pressure_diagram'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/linkerhand-ros2-sdk/resource) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/alan/linker_hand_ros2_sdk/install
+[0.440s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/alan/unitree_ros2/cyclonedds_ws/install
+[0.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/alan/ros2_ws/LeggedRobot/install
+[0.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 440 installed packages in /opt/ros/humble
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'linker_hand_ros2_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'linker_hand_ros2_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk', 'merge_install': False, 'path': '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/linker_hand_ros2_sdk', 'symlink_install': True, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pressure_diagram' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'pressure_diagram' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram', 'merge_install': False, 'path': '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/pressure_diagram', 'symlink_install': True, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'setting_info' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'setting_info' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alan/linker_hand_ros2_sdk/build/setting_info', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alan/linker_hand_ros2_sdk/install/setting_info', 'merge_install': False, 'path': '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/examples/setting_info', 'symlink_install': True, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'graphic_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'graphic_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alan/linker_hand_ros2_sdk/build/graphic_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alan/linker_hand_ros2_sdk/install/graphic_display', 'merge_install': False, 'path': '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/graphic_display', 'symlink_install': True, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'gui_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alan/linker_hand_ros2_sdk/build/gui_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alan/linker_hand_ros2_sdk/install/gui_control', 'merge_install': False, 'path': '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/gui_control', 'symlink_install': True, 'test_result_base': None}
+[0.486s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.487s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.487s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/linker_hand_ros2_sdk' with build type 'ament_python'
+[0.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('linker_hand_ros2_sdk', 'ament_prefix_path')
+[0.492s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/ament_prefix_path.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/ament_prefix_path.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/ament_prefix_path.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/pressure_diagram' with build type 'ament_python'
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('pressure_diagram', 'ament_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/hook/ament_prefix_path.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/hook/ament_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/hook/ament_prefix_path.sh'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/linker_hand_ros2_sdk'
+[0.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.855s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/pressure_diagram'
+[0.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/pressure_diagram/build --no-deps symlink_data
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/build --no-deps symlink_data
+[1.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('pressure_diagram', 'pythonpath_develop')
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/share/pressure_diagram/hook/pythonpath_develop.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/share/pressure_diagram/hook/pythonpath_develop.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/share/pressure_diagram/hook/pythonpath_develop.sh'
+[1.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram' returned '0': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/pressure_diagram/build --no-deps symlink_data
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram' for CMake module files
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram' for CMake config files
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/bin'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/pkgconfig/pressure_diagram.pc'
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages'
+[1.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('pressure_diagram', 'pythonpath')
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/hook/pythonpath.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/hook/pythonpath.dsv'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/hook/pythonpath.sh'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/bin'
+[1.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pressure_diagram)
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/package.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/package.dsv'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/package.sh'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/package.bash'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/package.zsh'
+[1.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/colcon-core/packages/pressure_diagram)
+[1.609s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/examples/setting_info' with build type 'ament_python'
+[1.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('setting_info', 'ament_prefix_path')
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/hook/ament_prefix_path.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/hook/ament_prefix_path.dsv'
+[1.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/hook/ament_prefix_path.sh'
+[1.611s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('linker_hand_ros2_sdk', 'pythonpath_develop')
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath_develop.ps1'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath_develop.dsv'
+[1.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath_develop.sh'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk' for CMake module files
+[1.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk' returned '0': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/build --no-deps symlink_data
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk' for CMake config files
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib'
+[1.621s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/bin'
+[1.621s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/pkgconfig/linker_hand_ros2_sdk.pc'
+[1.621s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages'
+[1.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('linker_hand_ros2_sdk', 'pythonpath')
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/hook/pythonpath.sh'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/bin'
+[1.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linker_hand_ros2_sdk)
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/package.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/package.dsv'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/package.sh'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/package.bash'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/linker_hand_ros2_sdk/package.zsh'
+[1.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/share/colcon-core/packages/linker_hand_ros2_sdk)
+[1.626s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/graphic_display' with build type 'ament_python'
+[1.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('graphic_display', 'ament_prefix_path')
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/hook/ament_prefix_path.ps1'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/hook/ament_prefix_path.dsv'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/hook/ament_prefix_path.sh'
+[1.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.820s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/examples/setting_info'
+[1.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.994s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/graphic_display'
+[1.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alan/linker_hand_ros2_sdk/build/graphic_display': AMENT_PREFIX_PATH=/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/setting_info:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/gui_control:/home/alan/linker_hand_ros2_sdk/install/graphic_display:/home/alan/ros2_ws/LeggedRobot/install/sport_control:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator:/home/alan/ros2_ws/LeggedRobot/install/dds_rostopic:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/point_lio:/home/alan/ros2_ws/LeggedRobot/install/message_handle:/home/alan/ros2_ws/LeggedRobot/install/fast_lio:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2:/home/alan/ros2_ws/LeggedRobot/install/kiss_icp:/home/alan/ros2_ws/LeggedRobot/install/gimbal_record:/home/alan/ros2_ws/LeggedRobot/install/drone_estimator:/home/alan/ros2_ws/LeggedRobot/install/control_message:/home/alan/ros2_ws/LeggedRobot/install/control_loop:/home/alan/ros2_ws/LeggedRobot/install/cartographer_3d:/home/alan/ros2_ws/LeggedRobot/install/bt_imu:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/alan/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/graphic_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/setting_info:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/gui_control:/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/graphic_display:/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/build/message_handle:/home/alan/ros2_ws/LeggedRobot/install/message_handle/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fast_lio/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/bt_imu:/home/alan/ros2_ws/LeggedRobot/install/bt_imu/lib/python3.10/site-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/graphic_display/build --no-deps symlink_data
+[2.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alan/linker_hand_ros2_sdk/build/setting_info': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/setting_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/setting_info/build --no-deps symlink_data
+[2.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('setting_info', 'pythonpath_develop')
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/setting_info/share/setting_info/hook/pythonpath_develop.ps1'
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/build/setting_info/share/setting_info/hook/pythonpath_develop.dsv'
+[2.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alan/linker_hand_ros2_sdk/build/setting_info' returned '0': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/setting_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/setting_info/build --no-deps symlink_data
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/setting_info/share/setting_info/hook/pythonpath_develop.sh'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/setting_info' for CMake module files
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/setting_info' for CMake config files
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/setting_info/lib'
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/setting_info/bin'
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/pkgconfig/setting_info.pc'
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages'
+[2.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('setting_info', 'pythonpath')
+[2.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/hook/pythonpath.ps1'
+[2.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/hook/pythonpath.dsv'
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/hook/pythonpath.sh'
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/setting_info/bin'
+[2.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(setting_info)
+[2.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/package.ps1'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/package.dsv'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/package.sh'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/package.bash'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/setting_info/share/setting_info/package.zsh'
+[2.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alan/linker_hand_ros2_sdk/install/setting_info/share/colcon-core/packages/setting_info)
+[2.587s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/gui_control' with build type 'ament_python'
+[2.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_control', 'ament_prefix_path')
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/hook/ament_prefix_path.ps1'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/hook/ament_prefix_path.dsv'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/hook/ament_prefix_path.sh'
+[2.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('graphic_display', 'pythonpath_develop')
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/graphic_display/share/graphic_display/hook/pythonpath_develop.ps1'
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alan/linker_hand_ros2_sdk/build/graphic_display' returned '0': AMENT_PREFIX_PATH=/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/setting_info:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/gui_control:/home/alan/linker_hand_ros2_sdk/install/graphic_display:/home/alan/ros2_ws/LeggedRobot/install/sport_control:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator:/home/alan/ros2_ws/LeggedRobot/install/dds_rostopic:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/point_lio:/home/alan/ros2_ws/LeggedRobot/install/message_handle:/home/alan/ros2_ws/LeggedRobot/install/fast_lio:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2:/home/alan/ros2_ws/LeggedRobot/install/kiss_icp:/home/alan/ros2_ws/LeggedRobot/install/gimbal_record:/home/alan/ros2_ws/LeggedRobot/install/drone_estimator:/home/alan/ros2_ws/LeggedRobot/install/control_message:/home/alan/ros2_ws/LeggedRobot/install/control_loop:/home/alan/ros2_ws/LeggedRobot/install/cartographer_3d:/home/alan/ros2_ws/LeggedRobot/install/bt_imu:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/alan/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/graphic_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/setting_info:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/gui_control:/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/graphic_display:/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/build/message_handle:/home/alan/ros2_ws/LeggedRobot/install/message_handle/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fast_lio/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/bt_imu:/home/alan/ros2_ws/LeggedRobot/install/bt_imu/lib/python3.10/site-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/graphic_display/build --no-deps symlink_data
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/build/graphic_display/share/graphic_display/hook/pythonpath_develop.dsv'
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/graphic_display/share/graphic_display/hook/pythonpath_develop.sh'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/graphic_display' for CMake module files
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/graphic_display' for CMake config files
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib'
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/graphic_display/bin'
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/pkgconfig/graphic_display.pc'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/python3.10/site-packages'
+[2.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('graphic_display', 'pythonpath')
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/hook/pythonpath.ps1'
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/hook/pythonpath.dsv'
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/hook/pythonpath.sh'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/graphic_display/bin'
+[2.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(graphic_display)
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/package.ps1'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/package.dsv'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/package.sh'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/package.bash'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/graphic_display/package.zsh'
+[2.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alan/linker_hand_ros2_sdk/install/graphic_display/share/colcon-core/packages/graphic_display)
+[2.779s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/gui_control'
+[2.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alan/linker_hand_ros2_sdk/build/gui_control': AMENT_PREFIX_PATH=/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/setting_info:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/gui_control:/home/alan/linker_hand_ros2_sdk/install/graphic_display:/home/alan/ros2_ws/LeggedRobot/install/sport_control:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator:/home/alan/ros2_ws/LeggedRobot/install/dds_rostopic:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/point_lio:/home/alan/ros2_ws/LeggedRobot/install/message_handle:/home/alan/ros2_ws/LeggedRobot/install/fast_lio:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2:/home/alan/ros2_ws/LeggedRobot/install/kiss_icp:/home/alan/ros2_ws/LeggedRobot/install/gimbal_record:/home/alan/ros2_ws/LeggedRobot/install/drone_estimator:/home/alan/ros2_ws/LeggedRobot/install/control_message:/home/alan/ros2_ws/LeggedRobot/install/control_loop:/home/alan/ros2_ws/LeggedRobot/install/cartographer_3d:/home/alan/ros2_ws/LeggedRobot/install/bt_imu:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/alan/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/gui_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/setting_info:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/gui_control:/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/graphic_display:/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/build/message_handle:/home/alan/ros2_ws/LeggedRobot/install/message_handle/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fast_lio/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/bt_imu:/home/alan/ros2_ws/LeggedRobot/install/bt_imu/lib/python3.10/site-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/gui_control/build --no-deps symlink_data
+[3.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_control', 'pythonpath_develop')
+[3.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/gui_control/share/gui_control/hook/pythonpath_develop.ps1'
+[3.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alan/linker_hand_ros2_sdk/build/gui_control' returned '0': AMENT_PREFIX_PATH=/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/setting_info:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/gui_control:/home/alan/linker_hand_ros2_sdk/install/graphic_display:/home/alan/ros2_ws/LeggedRobot/install/sport_control:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator:/home/alan/ros2_ws/LeggedRobot/install/dds_rostopic:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/point_lio:/home/alan/ros2_ws/LeggedRobot/install/message_handle:/home/alan/ros2_ws/LeggedRobot/install/fast_lio:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2:/home/alan/ros2_ws/LeggedRobot/install/kiss_icp:/home/alan/ros2_ws/LeggedRobot/install/gimbal_record:/home/alan/ros2_ws/LeggedRobot/install/drone_estimator:/home/alan/ros2_ws/LeggedRobot/install/control_message:/home/alan/ros2_ws/LeggedRobot/install/control_loop:/home/alan/ros2_ws/LeggedRobot/install/cartographer_3d:/home/alan/ros2_ws/LeggedRobot/install/bt_imu:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/alan/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/gui_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/setting_info:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/pressure_diagram:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/gui_control:/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages:/home/alan/linker_hand_ros2_sdk/build/graphic_display:/home/alan/linker_hand_ros2_sdk/install/graphic_display/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fusion_estimator/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/rosbagtopic_rename:/home/alan/ros2_ws/LeggedRobot/install/rosbagtopic_rename/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/build/message_handle:/home/alan/ros2_ws/LeggedRobot/install/message_handle/lib/python3.10/site-packages:/home/alan/ros2_ws/LeggedRobot/install/fast_lio/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/alan/ros2_ws/LeggedRobot/build/bt_imu:/home/alan/ros2_ws/LeggedRobot/install/bt_imu/lib/python3.10/site-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/alan/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/gui_control/build --no-deps symlink_data
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/build/gui_control/share/gui_control/hook/pythonpath_develop.dsv'
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/build/gui_control/share/gui_control/hook/pythonpath_develop.sh'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/gui_control' for CMake module files
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/gui_control' for CMake config files
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/gui_control/lib'
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/gui_control/bin'
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/pkgconfig/gui_control.pc'
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages'
+[3.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_control', 'pythonpath')
+[3.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/hook/pythonpath.ps1'
+[3.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/hook/pythonpath.dsv'
+[3.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/hook/pythonpath.sh'
+[3.330s] Level 1:colcon.colcon_core.environment:checking '/home/alan/linker_hand_ros2_sdk/install/gui_control/bin'
+[3.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui_control)
+[3.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/package.ps1'
+[3.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/package.dsv'
+[3.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/package.sh'
+[3.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/package.bash'
+[3.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/alan/linker_hand_ros2_sdk/install/gui_control/share/gui_control/package.zsh'
+[3.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alan/linker_hand_ros2_sdk/install/gui_control/share/colcon-core/packages/gui_control)
+[3.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.333s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.341s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.431s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alan/linker_hand_ros2_sdk/install/local_setup.ps1'
+[3.433s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alan/linker_hand_ros2_sdk/install/_local_setup_util_ps1.py'
+[3.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alan/linker_hand_ros2_sdk/install/setup.ps1'
+[3.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alan/linker_hand_ros2_sdk/install/local_setup.sh'
+[3.436s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alan/linker_hand_ros2_sdk/install/_local_setup_util_sh.py'
+[3.437s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alan/linker_hand_ros2_sdk/install/setup.sh'
+[3.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alan/linker_hand_ros2_sdk/install/local_setup.bash'
+[3.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alan/linker_hand_ros2_sdk/install/setup.bash'
+[3.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alan/linker_hand_ros2_sdk/install/local_setup.zsh'
+[3.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alan/linker_hand_ros2_sdk/install/setup.zsh'

@@ -1,0 +1,17 @@
+[0.751s] Invoking command in '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/pressure_diagram/build --no-deps symlink_data
+[0.941s] running develop
+[1.074s] running egg_info
+[1.075s] writing pressure_diagram.egg-info/PKG-INFO
+[1.075s] writing dependency_links to pressure_diagram.egg-info/dependency_links.txt
+[1.076s] writing entry points to pressure_diagram.egg-info/entry_points.txt
+[1.076s] writing requirements to pressure_diagram.egg-info/requires.txt
+[1.076s] writing top-level names to pressure_diagram.egg-info/top_level.txt
+[1.079s] reading manifest file 'pressure_diagram.egg-info/SOURCES.txt'
+[1.079s] writing manifest file 'pressure_diagram.egg-info/SOURCES.txt'
+[1.080s] running build_ext
+[1.081s] Creating /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages/pressure-diagram.egg-link (link to .)
+[1.082s] Installing pressure_diagram script to /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/pressure_diagram
+[1.082s] 
+[1.083s] Installed /home/alan/linker_hand_ros2_sdk/build/pressure_diagram
+[1.083s] running symlink_data
+[1.103s] Invoked command in '/home/alan/linker_hand_ros2_sdk/build/pressure_diagram' returned '0': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/pressure_diagram/build --no-deps symlink_data

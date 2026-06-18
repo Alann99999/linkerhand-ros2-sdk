@@ -1,0 +1,1 @@
+/home/alan/linker_hand_ros2_sdk/build/pressure_diagram/launch/pressure_diagram.launch.py

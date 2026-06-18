@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pressure-diagram
+Version: 0.0.0
+Summary: ROS2 Pressure Diagram - Real-time pressure sensor visualization for Linker Hand
+Home-page: UNKNOWN
+Maintainer: linkerhand
+Maintainer-email: linkerhand@todo.todo
+License: Apache-2.0
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

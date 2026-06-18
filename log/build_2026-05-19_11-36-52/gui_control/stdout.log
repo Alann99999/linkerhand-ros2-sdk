@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing gui_control.egg-info/PKG-INFO
+writing dependency_links to gui_control.egg-info/dependency_links.txt
+writing entry points to gui_control.egg-info/entry_points.txt
+writing requirements to gui_control.egg-info/requires.txt
+writing top-level names to gui_control.egg-info/top_level.txt
+reading manifest file 'gui_control.egg-info/SOURCES.txt'
+writing manifest file 'gui_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alan/linker_hand_ros2_sdk/install/gui_control/lib/python3.10/site-packages/gui-control.egg-link (link to .)
+Installing gui_control script to /home/alan/linker_hand_ros2_sdk/install/gui_control/lib/gui_control
+
+Installed /home/alan/linker_hand_ros2_sdk/build/gui_control
+running symlink_data

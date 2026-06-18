@@ -1,0 +1,3 @@
+[console_scripts]
+pressure_diagram = pressure_diagram.pressure_diagram:main
+

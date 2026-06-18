@@ -1,0 +1,22 @@
+[0.774s] Invoking command in '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/build --no-deps symlink_data
+[0.959s] running develop
+[1.084s] running egg_info
+[1.084s] writing linker_hand_ros2_sdk.egg-info/PKG-INFO
+[1.085s] writing dependency_links to linker_hand_ros2_sdk.egg-info/dependency_links.txt
+[1.085s] writing entry points to linker_hand_ros2_sdk.egg-info/entry_points.txt
+[1.086s] writing requirements to linker_hand_ros2_sdk.egg-info/requires.txt
+[1.086s] writing top-level names to linker_hand_ros2_sdk.egg-info/top_level.txt
+[1.088s] reading manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+[1.089s] writing manifest file 'linker_hand_ros2_sdk.egg-info/SOURCES.txt'
+[1.091s] running build_ext
+[1.092s] Creating /home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages/linker-hand-ros2-sdk.egg-link (link to .)
+[1.092s] Installing linker_hand_advanced_g20 script to /home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[1.092s] Installing linker_hand_advanced_l10 script to /home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[1.092s] Installing linker_hand_advanced_l6 script to /home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[1.093s] Installing linker_hand_advanced_l7 script to /home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[1.093s] Installing linker_hand_advanced_o6 script to /home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[1.093s] Installing linker_hand_sdk script to /home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/linker_hand_ros2_sdk
+[1.093s] 
+[1.093s] Installed /home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk
+[1.093s] running symlink_data
+[1.129s] Invoked command in '/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk' returned '0': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/linker_hand_ros2_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/linker_hand_ros2_sdk/build --no-deps symlink_data

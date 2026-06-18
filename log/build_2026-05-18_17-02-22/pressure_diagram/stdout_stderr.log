@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating pressure_diagram.egg-info
+writing pressure_diagram.egg-info/PKG-INFO
+writing dependency_links to pressure_diagram.egg-info/dependency_links.txt
+writing entry points to pressure_diagram.egg-info/entry_points.txt
+writing requirements to pressure_diagram.egg-info/requires.txt
+writing top-level names to pressure_diagram.egg-info/top_level.txt
+writing manifest file 'pressure_diagram.egg-info/SOURCES.txt'
+reading manifest file 'pressure_diagram.egg-info/SOURCES.txt'
+writing manifest file 'pressure_diagram.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/python3.10/site-packages/pressure-diagram.egg-link (link to .)
+Installing pressure_diagram script to /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/lib/pressure_diagram
+
+Installed /home/alan/linker_hand_ros2_sdk/build/pressure_diagram
+running symlink_data
+creating /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/ament_index
+creating /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/ament_index/resource_index
+creating /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/ament_index/resource_index/packages
+symbolically linking /home/alan/linker_hand_ros2_sdk/build/pressure_diagram/resource/pressure_diagram -> /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/ament_index/resource_index/packages
+symbolically linking /home/alan/linker_hand_ros2_sdk/build/pressure_diagram/package.xml -> /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram
+creating /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/launch
+symbolically linking /home/alan/linker_hand_ros2_sdk/build/pressure_diagram/launch/pressure_diagram.launch.py -> /home/alan/linker_hand_ros2_sdk/install/pressure_diagram/share/pressure_diagram/launch

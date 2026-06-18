@@ -1,0 +1,17 @@
+[0.579s] Invoking command in '/home/alan/linker_hand_ros2_sdk/build/setting_info': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/setting_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/setting_info/build --no-deps symlink_data
+[0.745s] running develop
+[0.873s] running egg_info
+[0.874s] writing setting_info.egg-info/PKG-INFO
+[0.874s] writing dependency_links to setting_info.egg-info/dependency_links.txt
+[0.874s] writing entry points to setting_info.egg-info/entry_points.txt
+[0.874s] writing requirements to setting_info.egg-info/requires.txt
+[0.874s] writing top-level names to setting_info.egg-info/top_level.txt
+[0.876s] reading manifest file 'setting_info.egg-info/SOURCES.txt'
+[0.876s] writing manifest file 'setting_info.egg-info/SOURCES.txt'
+[0.877s] running build_ext
+[0.877s] Creating /home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages/setting-info.egg-link (link to .)
+[0.878s] Installing setting_info_node script to /home/alan/linker_hand_ros2_sdk/install/setting_info/lib/setting_info
+[0.878s] 
+[0.878s] Installed /home/alan/linker_hand_ros2_sdk/build/setting_info
+[0.879s] running symlink_data
+[0.896s] Invoked command in '/home/alan/linker_hand_ros2_sdk/build/setting_info' returned '0': PYTHONPATH=/home/alan/linker_hand_ros2_sdk/build/setting_info/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alan/linker_hand_ros2_sdk/install/setting_info/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alan/linker_hand_ros2_sdk/build/setting_info/build --no-deps symlink_data

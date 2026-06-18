@@ -1,0 +1,1 @@
+/home/alan/linker_hand_ros2_sdk/src/linkerhand-ros2-sdk/linker_hand_ros2_sdk/launch/linker_hand_double.launch.py
