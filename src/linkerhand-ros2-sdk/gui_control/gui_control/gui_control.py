@@ -496,12 +496,12 @@ class HandControlGUI(QWidget):
         panel = QWidget()
         layout = QVBoxLayout(panel)
 
-        # —— 1. 标题 ——
+        #  1. 标题 
         title_label = QLabel("状态监控")
         title_label.setFont(QFont("Microsoft YaHei", 14, QFont.Bold))
         layout.addWidget(title_label)
 
-        # —— 2. 新增：速度与扭矩设置（每行一个）——
+        #  2. 新增：速度与扭矩设置（每行一个）
         quick_set_gb = QGroupBox("快速设置")
         qv_layout = QVBoxLayout(quick_set_gb)
 
@@ -551,7 +551,7 @@ class HandControlGUI(QWidget):
 
         layout.addWidget(quick_set_gb)
 
-        # —— 3. 原有标签页部分，完全不动 ——
+        #  3. 原有标签页部分，完全不动 
         tab_widget = QTabWidget()
 
         # 系统信息标签页
@@ -601,7 +601,7 @@ class HandControlGUI(QWidget):
 
         layout.addWidget(tab_widget)
 
-        # —— 4. 实时更新滑块值 ——
+        #  4. 实时更新滑块值 
         self.speed_slider.valueChanged.connect(
             lambda v: self.speed_val_lbl.setText(str(v)))
         self.torque_slider.valueChanged.connect(
